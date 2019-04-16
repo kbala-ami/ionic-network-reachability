@@ -1,5 +1,5 @@
 {
-    "name": "reachability",
+    "name": "ionic-network-reachability",
     "version": "0.0.1",
     "description": "Detect the internet access.",
     "main": "lib/index.js",
@@ -13,26 +13,28 @@
         "preversion": "npm run lint",
         "version": "npm run format && git add -A src",
         "postversion": "git push && git push --tags"
-
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/amindia/reachability.git"
+        "url": "git+https://github.com/amindia/ionic-network-reachability.git"
     },
-    "files": ["lib /**/ * "],
+    "files": [
+        "lib /**/ * "
+    ],
     "keywords": [
         "ionic4",
         "internet",
         "reachability",
-        "network",
+        "offline",
+        "online",
         "typescript"
     ],
     "author": "kbala@adaptivemedia.in",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/amindia/reachability/issues"
+        "url": "https://github.com/amindia/ionic-network-reachability/issues"
     },
-    "homepage": "https://github.com/amindia/reachability#readme",
+    "homepage": "https://github.com/amindia/ionic-network-reachability#readme",
     "devDependencies": {
         "prettier": "^1.17.0",
         "tslint": "^5.15.0",
