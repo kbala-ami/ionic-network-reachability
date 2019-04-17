@@ -1,6 +1,6 @@
 {
     "name": "ionic-network-reachability",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Detect the internet access.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
