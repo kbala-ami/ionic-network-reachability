@@ -5,6 +5,11 @@ export class IonicNetworkReachability {
   constructor() {
     this.isOnline = navigator.onLine;
   }
+  /**
+   * @description it is used to ensure network connectivity
+   * @param url `http-url`
+   * @returns return boolean `true` or `false`, indicating network state
+   */
   public async isReachable(url: string = 'https://httpbin.org/') {
     try {
       const result = await fetch(url);

@@ -13,12 +13,12 @@ npm install ionic-network-reachability --save
 app.component.ts
 
 ```ts
-import { isReachable } from 'ionic-network-reachability';
+import { IonicNetworkReachability } from 'ionic-network-reachability';
 
 export class AppComponent {
     async checkOnline() {
         try {
-            const isOnline = isReachable('url is optional');
+            const isOnline = IonicNetworkReachability.isReachable('url is optional');
             return isOnline;
         } catch(err) {
             
