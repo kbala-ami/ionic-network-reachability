@@ -19,7 +19,7 @@
         "url": "git+https://github.com/amindia/ionic-network-reachability.git"
     },
     "files": [
-        "lib /**/ * "
+        "lib /**/*"
     ],
     "keywords": [
         "ionic4",
@@ -36,12 +36,13 @@
     },
     "homepage": "https://github.com/amindia/ionic-network-reachability#readme",
     "devDependencies": {
+        "@angular/core": "^7.2.13",
         "prettier": "^1.17.0",
         "tslint": "^5.15.0",
         "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.4.3"
     },
     "dependencies": {
-        "rxjs": "^6.4.0"
+        "rxjs": "~6.3.3"
     }
 }
