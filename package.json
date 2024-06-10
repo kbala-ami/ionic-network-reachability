@@ -1,7 +1,7 @@
 {
     "name": "ionic-network-reachability",
     "version": "0.0.2",
-    "description": "Detect the internet access.",
+    "description": "Angular Service to Detect the internet access.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -27,7 +27,8 @@
         "reachability",
         "offline",
         "online",
-        "typescript"
+        "typescript",
+        "angular"
     ],
     "author": "kbala@adaptivemedia.in",
     "license": "MIT",
@@ -36,13 +37,13 @@
     },
     "homepage": "https://github.com/amindia/ionic-network-reachability#readme",
     "devDependencies": {
-        "@angular/core": "^7.2.13",
-        "prettier": "^1.17.0",
-        "tslint": "^5.15.0",
+        "@angular/core": "^18.0.2",
+        "prettier": "^1.19.1",
+        "tslint": "^5.20.1",
         "tslint-config-prettier": "^1.18.0",
-        "typescript": "^3.4.3"
+        "typescript": "^5.4.5"
     },
     "dependencies": {
-        "rxjs": "~6.3.3"
+        "rxjs": "^7.8.1"
     }
 }

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { from, fromEvent, of } from 'rxjs';
 import { catchError, map, switchMap } from 'rxjs/operators';
+
 @Injectable()
 export class IonicNetworkReachability {
   public isOnline: boolean;
